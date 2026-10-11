@@ -1,5 +1,5 @@
 interface:
   display_name: "contributor"
   short_description: "寻找项目与真实问题，逐项确认后提交 PR"
-  default_prompt: "用 $contributor 根据我的目标岗位和技术栈寻找合适项目与真实问题，先展示拟改动和验证结果；经我逐个确认后再提交 PR，并跟踪 CI、review 和合并状态。"
+  default_prompt: "用 $contributor 根据我的目标岗位和技术栈寻找项目与真实问题；结束时按‘流程内容 → 贡献事实卡 → 面经举例讲解’交付，按阶段记录用户和 Agent 的实际行为且不推定用户参与，公开面经案例附来源并与基于事实生成的追问分开，PR 只保留链接；经我逐项确认后再提交，并按原流程跟踪 CI、review 和合并状态。"
 
